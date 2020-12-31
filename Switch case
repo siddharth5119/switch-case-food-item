@@ -1,0 +1,44 @@
+#include<stdio.h>
+main()
+{
+	printf("Here are our Restaurant's Food Item With Their Prices.\n");
+	printf("1. Cheese Hamburger\n\bPrize: Rs.100\n");
+	printf("2. Cheezy Tacos(2)\n\bPrize: Rs.150\n");
+	printf("3. Apple Pie\n\bPrize: Rs.300\n");
+	printf("4. Doughnuts(4)\n\bPrize: Rs200\n");
+	printf("5. HotDog\n\bPrize: Rs 250\n");
+	
+	int coupon;
+	printf("Enter Your coupon Number: \n");
+	scanf("%d", &coupon);
+	
+	switch(coupon)
+	{
+		case 1:
+			printf("1. Cheese Hamburger\n\bPrize: Rs.100\n");
+			break;
+		
+		case 2:
+				printf("2. Cheezy Tacos(2)\n\bPrize: Rs.150\n");
+			break;
+			
+		case 3:
+			printf("3. Apple Pie\n\bPrize: Rs.300\n");
+			break;
+			
+		case 4:
+			printf("4. Doughnuts(4)\n\bPrize: Rs200\n");
+			break;
+		
+		case 5:
+			printf("5. HotDog\n\bPrize: Rs 250\n");
+			break;
+			
+		default:
+		printf("Invalid coupon");
+		
+	}
+	
+		return 0;
+	
+}
